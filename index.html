@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project School</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+    <meta name="viewport" content="width=device-width"> </head>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="scripts/burger.js" defer></script>
+<script src="scripts/modal.js" defer></script>
+<script src="scripts/slider.js" defer></script>
+<script src="scripts/slides_review.js" defer></script>
+<script src="https://api-maps.yandex.ru/2.1/?/apikey=ваш-API-ключ&lang=ru_RU"  defer></script>
+<script src="scripts/map.js" defer></script>
+
+<meta name="viewport" content="width=device-width">
+
+<body>
+    <div class="feedback_popup">
+        <form action="" class="popup_form">
+            <p>Оставить заявку</p>
+            <h4>Введите имя</h4>
+            <input type="text" placeholder="Введите имя">
+            <h4>Введите E-mail</h4>
+            <input type="email" placeholder="school@chair.ru">
+            <h4>Введите номер телефона</h4>
+            <h6>Наш менеджер Вам перезвонит</h6>
+            <input type="phone" placeholder="+7(999)999-99-99">
+            <button class="popup_btn">записаться сейчас!</button>
+            <h5>Нажимая на кнопку, Вы принимаете <a href="#">Положение</a> и <a href="#">Согласие</a> на обработку персональных данных.</h5> <i class="fa fa-solid fa-xmark"></i> </form>
+        <div class="blanc_field"></div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.svg" alt="logo"></a>
+                </div>
+                <nav class="header_menu">
+                    <ul class="header_menu_list">
+                        <li class="header_list_item"><a href="#">главная</a></li>
+                        <li class="header_list_item"><a href="#">услуги</a></li>
+                        <li class="header_list_item"><a href="#">наши работы</a></li>
+                        <li class="header_list_item"><a href="#">о компании</a></li>
+                        <li class="header_list_item"><a href="#">контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header_menu_contacts"> <a href="tel:+79999999999" class="header_menu_contact_item"><i class="fa fa-solid fa-phone"></i> +7(999)999-99-99</a> <a href="mailto:school@chair.ru" class="header_menu_contact_item"><i class="fa fa-solid fa-envelope"></i> school@chair.ru</a> </div>
+                <div class="header_burger"><span></span></div>
+            </div>
+        </div>
+    </header>
+    <section class="mainscreen">
+        <div class="container">
+            <div class="mainscreen_content">
+                <h1>оснащение оборудованием образовательных учреждений</h1>
+                <h2>Оборудование для школ, детских садов, вузов</h2>
+                <h4>Установка оборудования любой сложности в кабинетах, спортзалах, столовых и многое другое</h2>
+        <button class="feedback_button">оставить заявку сейчас</button>
+        </div>
+        </div>
+    </section>
+    
+    <section class="abuot_section">
+        <div class="container">
+            <div class="abuot_section_wrapper">
+                <div class="abuot_section_content">
+                    <h2>о нашей компании</h2>
+                    <p>Описание компании нужно вставить сюда тем же шрифтом и тем же Описание компании нужно вставить сюда тем же шрифтом и тем же размером текста. Описание компании нужно вставить сюда тем же шрифтом и тем же размером текста.</p>
+                    <button class="feedback_button mini" >оставить заявку</button>
+                </div>
+                <div class="abuot_section_photo">
+                    <img src="img/about_section_img.jpg" alt="abuot_section_photo">
+                </div>
+            </div>
+        </div>
+    </section>
+           
+           <section class="advantage_section">
+             <div class="container"> 
+              <div class="section_header">
+                      <h2>наши преимущества</h2>
+                  </div> 
+               <div class="advantage_section_content">
+                   <div class="advantage_section_content_item">
+                       <img src="img/icon_sequence_1.svg" alt="icon_sequence_1">
+                       <h4>План проекта</h4>
+                <p>Подробное описание преимуществ Вашей компании</p>
+            </div>
+            <div class="advantage_section_content_item"> <img src="img/icon_sequence_2.svg" alt="icon_sequence_2">
+                <h4>Быстрая реализация</h4>
+                <p>Подробное описание преимуществ Вашей компании</p>
+            </div>
+            <div class="advantage_section_content_item"> <img src="img/icon_sequence_3.svg" alt="icon_sequence_3">
+                <h4>Качественная работа</h4>
+                <p>Подробное описание преимуществ Вашей компании</p>
+            </div>
+            <div class="advantage_section_content_item"> <img src="img/icon_sequence_4.svg" alt="icon_sequence_4">
+                <h4>Реализация под ключ</h4>
+                <p>Подробное описание преимуществ Вашей компании</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="portfolio_section">
+        <div class="section_header">
+            <h2>наши работы</h2> </div>
+        <div class="carousel">
+            <div class="carousel_button next" onclick="onNext();">
+                <p>&#187;</p>
+            </div>
+            <div class="carousel_button prev" onclick="onPrev();">
+                <p>&#171;</p>
+            </div>
+            <ul class="slides">
+                <li class="slide" id="slide_1" data-active> </li>
+                <li class="slide" id="slide_2"> </li>
+                <li class="slide" id="slide_3"> </li>
+                <li class="slide" id="slide_4"> </li>
+                <li class="slide" id="slide_5"> </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="portfolio_buttons"> <a href="#" class="portfolio_link">больше проектов</a>
+                <button class="feedback_button">оставить заявку сейчас</button>
+            </div>
+        </div>
+    </section>
+    <section class="choice_section">
+        <div class="container">
+            <div class="section_header">
+                <h2>нас выбирают</h2> </div>
+            <div class="choice_section_content">
+                <div class="choice_section_content_item">
+                    <h4>01. Преимущества работы с компанией</h4>
+                    <p>Подробное описание этого преимущества в идеальном соотношении - это текст в 2 строчки. Так выглядеть текст будет максимально элегантно.</p>
+                </div>
+                <div class="choice_section_content_item">
+                    <h4>02. Преимущества работы с компанией</h4>
+                    <p>Подробное описание этого преимущества в идеальном соотношении - это текст в 2 строчки. Так выглядеть текст будет максимально элегантно.</p>
+                </div>
+                <div class="choice_section_content_item">
+                    <h4>03. Еще преимущества работы с Вами</h4>
+                    <p>Подробное описание этого преимущества в идеальном соотношении - это текст в 2 строчки. Так выглядеть текст будет максимально элегантно.</p>
+                </div>
+                <div class="choice_section_content_item">
+                    <h4>04. Еще преимущества работы с Вами</h4>
+                    <p>Подробное описание этого преимущества в идеальном соотношении - это текст в 2 строчки. Так выглядеть текст будет максимально элегантно.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="progress_section">
+        <div class="container">
+            <div class="section_header">
+                <h2>нас выбирают</h2> </div>
+            <div class="progress_section_content">
+                <div class="progress_section_content_item">
+                    <h3>1 этап</h3>
+                    <div class="progress_section_content_text">
+                        <h4>Название 1 этапа</h4>
+                        <p>Подробное описание этого этапа в идеальном соотношении - это текст в 2 строчки. Так текст будет выглядеть максимально аккуратно.</p>
+                    </div>
+                </div>
+                <div class="progress_section_content_item">
+                    <h3>2 этап</h3>
+                    <div class="progress_section_content_text">
+                        <h4>Название 2 этапа</h4>
+                        <p>Подробное описание этого этапа в идеальном соотношении - это текст в 2 строчки. Так текст будет выглядеть максимально аккуратно.</p>
+                    </div>
+                </div>
+                <div class="progress_section_content_item">
+                    <h3>3 этап</h3>
+                    <div class="progress_section_content_text">
+                        <h4>Название 3 этапа</h4>
+                        <p>Подробное описание этого этапа в идеальном соотношении - это текст в 2 строчки. Так текст будет выглядеть максимально аккуратно.</p>
+                    </div>
+                </div>
+                <div class="progress_section_content_item">
+                    <h3>4 этап</h3>
+                    <div class="progress_section_content_text last">
+                        <h4>Название 4 этапа</h4>
+                        <p>Подробное описание этого этапа в идеальном соотношении - это текст в 2 строчки. Так текст будет выглядеть максимально аккуратно.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text_section">
+        <div class="container">
+            <div class="section_header">
+                <h2>o компании</h2> </div>
+            <div class="text_section_text">
+                <p>Описание компании нужно вставить сюда тем же шрифтом и тем же Описание компании нужно вставить сюда тем же шрифтом и тем же размером текста. Описание компании нужно вставить сюда тем же шрифтом и тем же размером текста. Описание компании нужно вставить сюда тем же шрифтом и тем же Описание компании нужно вставить сюда тем же шрифтом и тем же размером текста. </p>
+                <p>Описание компании нужно вставить сюда тем же шрифтом и тем же Описание компании нужно вставить сюда тем же шрифтом и тем же размером текста. Описание компании нужно вставить сюда тем же шрифтом и тем же размером текста. Описание компании нужно вставить сюда тем же шрифтом и тем же Описание компании нужно вставить сюда тем же шрифтом и тем же размером текста. </p>
+            </div>
+        </div>
+    </section>
+    <section class="profile_section">
+        <div class="container">
+            <div class="section_header">
+                <h2>наша деятельность</h2> </div>
+            <div class="profile_content">
+                <div class="profile_content_text">
+                    <ul>
+                        <li> <img src="img/icon_profile_1.svg" alt="elementary">
+                            <div class="profile_content_text_item">
+                                <h4>Детские сады</h4>
+                                <p>Напишите здесь причины, по которым по Вашему необходимо приобрести Ваш товар именно данной целевой аудитории.</p>
+                            </div>
+                        </li>
+                        <li> <img src="img/icon_profile_2.svg" alt="school">
+                            <div class="profile_content_text_item">
+                                <h4>Школы</h4>
+                                <p>Напишите здесь причины, по которым по Вашему необходимо приобрести Ваш товар именно данной целевой аудитории.</p>
+                            </div>
+                        </li>
+                        <li> <img src="img/icon_profile_3.svg" alt="university">
+                            <div class="profile_content_text_item">
+                                <h4>Высшие учебные заведения</h4>
+                                <p>Напишите здесь причины, по которым по Вашему необходимо приобрести Ваш товар именно данной целевой аудитории.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="profile_content_form">
+                    <form action="" class="popup_form">
+                        <p>Оставить заявку</p>
+                        <h4>Введите имя</h4>
+                        <input type="text" placeholder="Введите имя">
+                        <h4>Введите E-mail</h4>
+                        <input type="email" placeholder="school@chair.ru">
+                        <h4>Введите номер телефона</h4>
+                        <h6>Наш менеджер Вам перезвонит</h6>
+                        <input type="phone" placeholder="+7(999)999-99-99">
+                        <button class="popup_btn">записаться сейчас!</button>
+                        <h5>Нажимая на кнопку, Вы принимаете <a href="#">Положение</a> и <a href="#">Согласие</a> на обработку персональных данных.</h5></form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partner_section">
+        <div class="container">
+            <div class="parner_section_content">
+                <h2>наши партнёры</h2>
+                <p>Опишите здесь, с какими партнерами вы сотрудничаете. Вставьте логотипы компаний ниже </p>
+                <div class="parner_section_content_logos"> <img src="img/icon_partner_1.svg" alt="partner_1"> <img src="img/icon_partner_2.svg" alt="partner_2"> <img src="img/icon_partner_3.svg" alt="partner_3"> <img src="img/icon_partner_4.svg" alt="partner_4"> <img src="img/icon_partner_5.svg" alt="partner_5"> </div>
+            </div>
+        </div>
+    </section>
+    <section class="review_section">
+        <div class="container">
+            <div class="section_header">
+                <h2>отзывы наших клиентов</h2> </div>
+            <div class="carousel review">
+                <div class="carousel_button next" onclick="onNextRev();">
+                    <p>&#187;</p>
+                </div>
+                <div class="carousel_button prev" onclick="onPrevRev();">
+                    <p>&#171;</p>
+                </div>
+                <ul class="slides">
+                    <li class="slide_review" data-active>
+                        <div class="review_content_item"><img src="img/photo_review_1.webp" alt="">
+                            <div class="review_content_item_text">
+                                <h4>Иван Иванов</h4>
+                                <h5>Директор школы №4</h5>
+                                <p>Выражаю огромную благодарность компании за креативный подход и качественную работу. Я сотрудничаю с ними уже не первый год и могу сказать, что очень доволен результатом нашего сотрудничества.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slide_review">
+                        <div class="review_content_item"><img src="img/photo_review_2.png" alt="">
+                            <div class="review_content_item_text">
+                                <h4>Пётр Петров</h4>
+                                <h5>Ректор РПКУ ВГУ</h5>
+                                <p>Выражаю огромную благодарность компании за креативный подход и качественную работу. Я сотрудничаю с ними уже не первый год и могу сказать, что очень доволен результатом нашего сотрудничества.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slide_review">
+                        <div class="review_content_item"><img src="img/photo_review_3.jpg" alt="">
+                            <div class="review_content_item_text">
+                                <h4>Сидор Сидоров</h4>
+                                <h5>Директор детского сада "Лапушок"</h5>
+                                <p>Выражаю огромную благодарность компании за креативный подход и качественную работу. Я сотрудничаю с ними уже не первый год и могу сказать, что очень доволен результатом нашего сотрудничества.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slide_review">
+                        <div class="review_content_item"><img src="img/photo_review_4.png" alt="">
+                            <div class="review_content_item_text">
+                                <h4>Олег Олегов</h4>
+                                <h5>ЗавУч школы №10</h5>
+                                <p>Выражаю огромную благодарность компании за креативный подход и качественную сантехнику. Я сотрудничаю с ними уже не первый год и могу сказать, что очень доволен результатом нашего сотрудничества. </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact_section">
+        <div class="container">
+            <div class="section_header">
+                <h2>контакты</h2> </div>
+                
+                 <div class="contact_section_content">
+                   <div class="contact_section_adress">
+                    <div class="map" id="map"></div>
+                        <ul class="contact_section_list">
+                    <li class="contact_section_item">
+                        <p>г. воронеж, ул. карла маркса, 66</p>
+                    </li>
+                    <li class="contact_section_item">
+                        <a href="mailto:school@chair.ru">school@chair.ru</a>
+                    </li>
+                    <li class="contact_section_item">
+                        <a href="tel:+7(999)999-99-99">+7(999)999-99-99</a>
+                    </li>
+
+                </ul>
+                    </div>
+                    <div class="profile_content_form">
+                    <form action="" class="popup_form">
+                        <p>Оставить заявку</p>
+                        <h4>Введите имя</h4>
+                        <input type="text" placeholder="Введите имя">
+                        <h4>Введите E-mail</h4>
+                        <input type="email" placeholder="school@chair.ru">
+                        <h4>Введите номер телефона</h4>
+                        <h6>Наш менеджер Вам перезвонит</h6>
+                        <input type="phone" placeholder="+7(999)999-99-99">
+                        <button class="popup_btn">заказать звонок</button>
+                        <h5>Нажимая на кнопку, Вы принимаете <a href="#">Положение</a> и <a href="#">Согласие</a> на обработку персональных данных.</h5></form>
+                </div>
+                </div>
+                
+                
+               <div class="contact_section_social">
+                        <h4>Присоединяйтесь к нам в социальных сетях!</h4>
+                        <a href="#"><img src="img/social_1.svg" alt=""></a>
+                        <a href="#"><img src="img/social_2.svg" alt=""></a>
+                        <a href="#"><img src="img/social_3.svg" alt=""></a>
+                        <a href="#"><img src="img/social_4.svg" alt=""></a>
+                    </div> 
+               
+                
+        </div>
+    </section>
+    
+       <footer>
+          <div class="container">
+          <div class="footer_content">
+           <a href="#"><img src="img/logo.svg" alt="logo"></a>
+           <div class="footer_adress">
+           <p>ООО «СтройШкол», 123456, Воронеж, ул. Карла Маркса, 66</p>
+           <p>ИНН 1234567890 ОГРН&nbsp;123456789012</p>
+           </div>
+           <div class="footer_contacts">
+               <a href="tel:+79999999999"><i class="fa fa-solid fa-phone"></i> +7(999)999-99-99</a> <a href="mailto:school@chair.ru"><i class="fa fa-solid fa-envelope"></i> school@chair.ru</a>
+           </div>
+           </div>
+           <p class="copyright">&copy; СтройШкол 2024</p>
+           </div>
+       </footer>
+        
+</body>
+
+</html>

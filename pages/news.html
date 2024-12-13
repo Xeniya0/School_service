@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>News</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <meta name="viewport" content="width=device-width"> </head>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="../scripts/burger.js" defer></script>
+<script src="../scripts/modal.js" defer></script>
+<script src="../scripts/slider.js" defer></script>
+<script src="../scripts/slides_review.js" defer></script>
+<script src="https://api-maps.yandex.ru/2.1/?/apikey=ваш-API-ключ&lang=ru_RU"  defer></script>
+<script src="../scripts/map.js" defer></script>
+
+<meta name="viewport" content="width=device-width">
+
+<body>
+    <div class="feedback_popup">
+        <form action="" class="popup_form">
+            <p>Оставить заявку</p>
+            <h4>Введите имя</h4>
+            <input type="text" placeholder="Введите имя">
+            <h4>Введите E-mail</h4>
+            <input type="email" placeholder="school@chair.ru">
+            <h4>Введите номер телефона</h4>
+            <h6>Наш менеджер Вам перезвонит</h6>
+            <input type="phone" placeholder="+7(999)999-99-99">
+            <h4>Опишите ваш вопрос</h4>
+            <textarea rows="3"></textarea>
+            <button class="popup_btn">записаться сейчас!</button>
+            <h5>Нажимая на кнопку, Вы принимаете <a href="#">Положение</a> и <a href="#">Согласие</a> на обработку персональных данных.</h5> <i class="fa fa-solid fa-xmark"></i> </form>
+        <div class="blanc_field"></div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="#"><img src="../img/logo.png" alt="logo"></a>
+                </div>
+                <nav class="header_menu">
+                    <ul class="header_menu_list">
+                        <li class="header_list_item"><a href="#">главная</a></li>
+                        <li class="header_list_item"><a href="#">новости</a></li>
+                        <li class="header_list_item"><a href="#">услуги</a></li>
+                        <li class="header_list_item"><a href="#">наши работы</a></li>
+                        <li class="header_list_item"><a href="#">о компании</a></li>
+                        <li class="header_list_item"><a href="#">контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header_menu_contacts"> <a href="tel:+79999999999" class="header_menu_contact_item"><i class="fa fa-solid fa-phone"></i> +7(999)999-99-99</a> <a href="mailto:school@chair.ru" class="header_menu_contact_item"><i class="fa fa-solid fa-envelope"></i> school@chair.ru</a> </div>
+                <div class="header_burger"><span></span></div>
+            </div>
+        </div>
+    </header>
+    
+  
+        
+<section class="current_path">
+    <div class="container">
+        <a href="../index.html">Главная</a> -> <a href="#">Новости</a>
+    </div>
+</section>
+  
+  
+  
+
+  <section class="news_section"> 
+     <div class="container">
+     <h1 class="page_header">Новости<span class="logo_colon">:</span></h1>
+      <article class="single_news_item"> 
+          <img src="../img/news_img/new_1.jpg" alt="news_photo_1" class="news_item_photo">
+          <div class="news_item_text">
+              <a href="#"><h2>Первая новость, самая важная</h2></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Voluptate, suscipit nihil possimus ducimus itaque et dolor!</p>
+              <div class="news_article_footer">
+              <span class="news_date">11 ноября 2024г</span>
+              <a href="#" class="main_link">Читать далее...</a>
+              </div>
+              
+          </div> 
+      </article>
+      <article class="single_news_item">
+          <img src="../img/news_img/new_2.jpg" alt="news_photo_2" class="news_item_photo">
+          <div class="news_item_text">
+              <a href="#"><h2>Вторая новость</h2></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni blanditiis repellat, dolorum quasi, iure quam!</p>
+              <div class="news_article_footer">
+              <span class="news_date">11 ноября 2024г</span>
+              <a href="#" class="main_link">Читать далее...</a>
+              </div>
+              
+          </div>
+      </article>
+      <article class="single_news_item">
+          <img src="../img/news_img/new_3.jpg" alt="news_photo_3" class="news_item_photo">
+          <div class="news_item_text">
+              <a href="#"><h2>Новость номер три самое интересное, прекрасное и многогранное. Новость этого дня!</h2></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas itaque mollitia, voluptates. Rerum distinctio omnis quaerat qui architecto in saepe, sint voluptate nisi maxime a, nam ut, dolores sunt. Perferendis excepturi reiciendis sint molestias voluptatem. Repellat nihil error, sed quis similique. Reiciendis cumque necessitatibus aperiam sint! Nobis blanditiis architecto iure.</p>
+              <div class="news_article_footer">
+              <span class="news_date">11 ноября 2024г</span>
+              <a href="#" class="main_link">Читать далее...</a>
+              </div>
+          </div>
+      </article>
+      <article class="single_news_item">
+          <img src="../img/news_img/new_4.jpg" alt="news_photo_4" class="news_item_photo">
+          <div class="news_item_text">
+              <a href="#"><h2>Четыре</h2></a>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div class="news_article_footer">
+              <span class="news_date">11 ноября 2024г</span>
+              <a href="#" class="main_link">Читать далее...</a>
+              </div>
+          </div>
+      </article>
+      <article class="single_news_item">
+          <img src="../img/news_img/new_5.jpg" alt="news_photo_5" class="news_item_photo">
+          <div class="news_item_text">
+              <a href="#"><h2>Пятая новость, хацкеры</h2></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit saepe error dolores molestias eligendi possimus commodi, cum nobis ex soluta facilis ad ratione officiis, aliquam quae. Repudiandae velit atque distinctio voluptatibus, praesentium quaerat ratione hic similique placeat. Provident, iusto, mollitia! Dicta dignissimos nihil quae, quaerat dolor cupiditate qui vel delectus assumenda ratione doloremque et quisquam vitae veritatis voluptatem hic minus.</p>
+              <div class="news_article_footer">
+              <span class="news_date">11 ноября 2024г</span>
+              <a href="#" class="main_link">Читать далее...</a>
+              </div>
+          </div>
+      </article>
+      <article class="single_news_item">
+          <img src="../img/news_img/new_6.jpg" alt="news_photo_6" class="news_item_photo">
+          <div class="news_item_text">
+              <a href="#"><h2>Новость шесть, математичка</h2></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, porro. Pariatur iusto, commodi voluptates.</p>
+              <div class="news_article_footer">
+              <span class="news_date">11 ноября 2024г</span>
+              <a href="#" class="main_link">Читать далее...</a>
+              </div>
+          </div>
+      </article>
+      <article class="single_news_item">
+          <img src="../img/news_img/new_7.jpg" alt="news_photo_7" class="news_item_photo">
+          <div class="news_item_text">
+              <a href="#"><h2>Открытие новых школ, седьмая новость</h2></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quidem eos modi vel nemo odit nobis quae, voluptas perferendis non? Laboriosam, facilis dignissimos atque recusandae cupiditate at voluptas reprehenderit optio! Nemo aspernatur, sapiente dolorum omnis.</p>
+             <div class="news_article_footer">
+              <span class="news_date">11 ноября 2024г</span>
+              <a href="#" class="main_link">Читать далее...</a>
+              </div>
+          </div>
+      </article>
+      <article class="single_news_item">
+          <img src="../img/news_img/new_8.jpg" alt="news_photo_8" class="news_item_photo">
+          <div class="news_item_text">
+              <a href="#"><h2>Какая-то конференция, новость восемь</h2></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="news_article_footer">
+              <span class="news_date">11 ноября 2024г</span>
+              <a href="#" class="main_link">Читать далее...</a>
+              </div>
+          </div>
+      </article>
+      <article class="single_news_item">
+          <img src="../img/news_img/new_9.jpg" alt="news_photo_9" class="news_item_photo">
+          <div class="news_item_text">
+              <a href="#"><h2>Компьютерный класс! Девятая нвоость этого дня</h2></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis similique repellendus totam doloremque ea blanditiis voluptas voluptate obcaecati assumenda ad modi ratione odit dicta et, aliquid illum corrupti, perspiciatis possimus amet cupiditate nemo aspernatur veniam omnis in? Explicabo temporibus, aliquam dolores.</p>
+              <div class="news_article_footer">
+              <span class="news_date">11 ноября 2024г</span>
+              <a href="#" class="main_link">Читать далее...</a>
+              </div>
+          </div>
+      </article>
+      <article class="single_news_item"> 
+          <img src="../img/news_img/new_10.jpg" alt="news_photo_10" class="news_item_photo">
+          <div class="news_item_text">
+              <a href="#"><h2>Десятая новость, хэлуинская, октябрь</h2></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque totam voluptas animi ipsa maiores doloremque, architecto, et dolorem qui obcaecati autem, vel ducimus, nemo! Officiis omnis sapiente praesentium suscipit repellat eaque natus voluptatem, nesciunt obcaecati mollitia culpa nulla, beatae, aliquid totam rem pariatur, tempore asperiores sint eos ipsum modi magnam. Veniam, in.</p>
+              <div class="news_article_footer">
+              <span class="news_date">11 ноября 2024г</span>
+              <a href="#" class="main_link">Читать далее...</a>
+              </div>
+          </div>
+      </article>
+      <div class="news_loader">
+           <p>Загрузить больше новостей</p>
+            <button class="news_loader_button">ещё новости</button>
+        </div>
+      </div>
+  </section>
+
+   
+  
+ 
+
+<footer class="white">
+   <div class="container">
+
+          <div class="footer_content white">
+          <div class="footer_content_logo">
+           <a href="#"><img src="../img/logo.png" alt="logo"></a>
+           </div>
+           <div class="footer_adress">
+           <p>ООО «СтройШкол», 123456, Воронеж, ул. Карла Маркса, 66</p>
+           <p>ИНН 1234567890 ОГРН&nbsp;123456789012</p>
+           </div>
+           <div class="footer_contacts">
+               <a href="tel:+79999999999"><i class="fa fa-solid fa-phone"></i> +7(999)999-99-99</a> <a href="mailto:school@chair.ru"><i class="fa fa-solid fa-envelope"></i> school@chair.ru</a>
+           </div>
+           </div>
+           <p class="copyright">&copy; СтройШкол 2024</p>
+           </div>
+    
+    
+</footer>
+       
+        
+</body>
+
+</html>

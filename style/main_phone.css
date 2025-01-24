@@ -1,0 +1,256 @@
+@media (max-width: 767px) {
+    .mainscreen {
+        height: 85vh;
+    }
+    
+    .mainscreen_content {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .mainscreen_content h1 {
+        font-size: 2.5em;
+    }
+    
+
+    .mainscreen_content h2 {
+        font-size: 1.7em;
+    }
+
+    .mainscreen_content h4 {
+        font-size: 1.5em;
+    }
+
+    .feedback_button {
+        padding: 0;
+        margin-top: 10%;
+        width: 90%;
+        height: 10%;
+    }
+
+    .popup_form {
+        margin-top: 20%;
+        margin: 45% auto;
+    } 
+    
+    .advantage_section_content {
+     flex-direction: column;  
+    }
+    
+    .advantage_section_content_item {
+        width: 80%;
+        margin: 20px auto;
+        
+    }
+
+    .portfolio_buttons {
+        flex-direction: column;
+    }
+    
+    .portfolio_link,
+    .portfolio_buttons>.feedback_button {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    
+    .progress_section_content_text:before {
+        left: -55px;
+    }
+    
+    .progress_section_content_text:after {
+        left: -35px;
+    }
+    
+    .profile_content_text img {
+        width: 50px;
+    }
+    
+    .profile_content_text ul,
+    .profile_content_text li {
+        width: 100%;
+        margin-right: 0;
+        padding-left: 5px;
+    }
+    
+    .profile_content_form {
+        margin-bottom: 100px;
+    }
+    
+    .profile_content_form>.popup_form {
+        border: none;
+        text-align: center;
+    }
+
+    .parner_section_content {
+        margin-top: 10vh;
+    }
+    
+    .parner_section_content h2 {
+        font-size: 2.5em;
+    }
+    
+    .parner_section_content h2:after {
+        right: 30%; 
+        top: 10vh;
+    }
+    
+    .parner_section_content p {
+        font-size: 1.5em;
+    }
+    
+    .parner_section_content_logos img {
+        padding: 0 10px;
+        height: 50px;
+    }
+
+    .carousel.review {
+        height: 100vh;
+        margin-bottom: 20px;
+    }
+    
+    .slide_review {
+        padding: 50px;
+    }
+    
+    .slide_review img {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    
+    .review_content_item_text h4 {
+        font-size: 1.5em;
+    }
+    
+    .review_content_item_text p {
+        font-size: 1.2em;
+    }
+    
+    .carousel.review .carousel_button {
+        background: none;
+    }
+    
+    .carousel.review .carousel_button.next{
+    right: -2%;
+    }
+
+    .carousel.review .carousel_button.prev{
+        left: -2%;
+    }
+
+    
+    .contact_section_social {
+        margin-bottom: 0;
+        padding: 5vh;
+    }
+    
+    .contact_section_adress {
+        height: 70vh;
+        border: none;
+    }
+    
+    .map {
+        height: 60vh;
+    }
+    
+    .contact_section_list {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .contact_section_item {
+    }
+
+    
+    .footer_content a {
+        width: 20%;
+        margin: 0;
+    }
+    
+    .footer_adress {
+        width: 75%;
+    }
+    
+    .footer_contacts {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .footer_contacts a {
+        width: 50%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: .8em;
+    }
+
+    .service_item {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .services_feedback > .feedback_button {
+        padding: 10px 0;
+    }
+
+    .single_news_item {
+        flex-direction: column; 
+        border-right: none;
+        border-bottom: 3px solid transparent;
+    }
+    
+    .single_news_item:hover,
+    .single_news_item:focus{
+        border-right: none;
+        border-bottom: 3px solid var(--main-red);
+    }
+    
+    .news_item_photo {
+        width: 100%;
+        height: 30%;
+    }
+    
+    .news_item_text {
+        width: 100%;
+        min-height: 30%;
+        margin: 30px;
+    }
+
+    .single_portfolio_item {
+        width: 100%;
+    }
+
+    .single_news_content .portfolio_link, 
+    .single_news_content .feedback_button {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .logo_colon_blue {
+        text-shadow: none;
+    }  
+    
+    .company_about_slogan_text {
+        text-align: left;
+    }
+    
+    .company_about_review_section .carousel_button {
+        top: 10%;
+    }
+    
+    .carousel.review .carousel_button.next{
+    right: 1%;
+    }
+
+    .carousel.review .carousel_button.prev{
+        left: 1%;
+    }
+}
+
+
